@@ -1,0 +1,61 @@
+name: ifood_clone
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+#
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.3
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.13.1
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+ 
+  uses-material-design: true
+  assets:
+    - lib/assets/img/restaurantes.jpg
+    - lib/assets/img/pet_shop.jpg
+    - lib/assets/img/carroselad1.jpg
+    - lib/assets/img/carroselad2.jpg
+    - lib/assets/img/carroselad3.jpg
+    - lib/assets/img/carroselad4.jpg
+    - lib/assets/img/mac.png
+    - lib/assets/img/cupom.jpg
+    - lib/assets/img/star.png
+    - lib/assets/img/big_mac.avif
+    - lib/assets/img/lanches.jpeg
+    - lib/assets/img/ifood-logo.png
+    - lib/assets/img/ifood-logo2.jpeg
+    - lib/assets/img/caio.jpg
+    - lib/assets/img/bigmac.png
+
+flutter_native_splash:
+ color: "#EA0033"
+ image: "lib/assets/img/ifood-logo2.jpeg"
+ android: true
+ ios: true
+ image_size: "contain"
+
+flutter_icons:
+  image_path: "lib/assets/img/ifood-logo2.jpeg"
+  android: "launcher_icon"
+  ios: true
+  adaptive_icon_backgroud: "#fc0303"
+  adaptive_icon_foreground: "lib/assets/img/ifood-logo.png"
